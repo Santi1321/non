@@ -27,7 +27,7 @@ _session = requests.session()
 #======================================================================================
 botStart = time.time()
 #======================================================================================
-maxgie = LINE()
+maxgie = LINE('')
 maxgie.log("Auth Token : " + str(maxgie.authToken))
 maxgie.log("Timeline Token : " + str(maxgie.tl.channelAccessToken))
 
