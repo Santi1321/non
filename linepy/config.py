@@ -47,7 +47,6 @@ class Config(object):
 
     APP_TYPE    = 'IOSIPAD'
     APP_VER     = APP_VERSION[APP_TYPE] if APP_TYPE in APP_VERSION else APP_VERSION['DEFAULT']
-    APP_VER     = '5.5.5'
     CARRIER     = '51089, 1-0'
     SYSTEM_NAME = 'Fc.Pea150'
     SYSTEM_VER  = '11.2.5'
